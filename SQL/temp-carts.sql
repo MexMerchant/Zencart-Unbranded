@@ -1,0 +1,1 @@
+CREATE TABLE IF NOT EXISTS payment_network_temp_carts (payment_network_orderRef VARCHAR(64) NOT NULL, payment_network_session TEXT NOT NULL, payment_network_cdate TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP, payment_network_orderID int NULL) ENGINE=InnoDB;
