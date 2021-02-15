@@ -18,7 +18,6 @@ This Zencart module provides an easy method to integrate with the payment gatewa
 
 - The module requires the following prerequisites to be met in order to function correctly:
     - For a full list of requirements please see: https://docs.zen-cart.com/user/first_steps/server_requirements/
-    - SSL **NB: HTTPS is expected to be in place as the payment gateway will respond over SSL when integrating directly. Failure to provide an environment where HTTPS traffic is possible, will result in the 3DSv2 payment flow failing***
 
 > Please note that we can only offer support for the Module itself. While every effort has been made to ensure the payment module is complete and bug free, we cannot guarentee normal functionality if unsupported changes are made.
 
@@ -32,6 +31,7 @@ To rebrand this module, please complete the following steps:
 	- Line 11: `define('MODULE_PAYMENT_PAYMENT_NETWORK_FORM_URL', 'https://gateway.example.com/hosted/');` changing gateway.example.com to your gateway url
 	- Line 13: `define('MODULE_PAYMENT_PAYMENT_NETWORK_ADMIN_TITLE', 'Payment Network Integration');` changing Payment Network to your brand name
 	- Line 14: `define('MODULE_PAYMENT_PAYMENT_NETWORK_ADMIN_DESCRIPTION', '<a target=\"_blank\" href=\"https://www.example.com?ref=zen-cart\"><img style=\"float:right;margin-right:8px;\" src=\"https://www.example.com/images/logo.png?ref=zen-cart\"/></a> <br/><a target="_blank" href="https://www.cardstream.com/signup?ref=zen-cart">Click Here to Sign Up for an Account</a><br /><br /><a target="_blank" href="https://mms.cardstream.com/admin?ref=zen-cart">Login to the PaymentNetwork Merchant Area</a><br /><br /><strong>Requirements:</strong><br /><hr />*<strong>PaymentNetwork Account</strong> (see link above to signup)<br />*<strong>PaymentNetwork MerchantID</strong> available from your Merchant Area<br/> *<strong>PaymentNetwork Merchant Password</strong> set in mms &amp; required for zen-cart');` changing references to www.example.com to your website url and PaymentNetwork to your brand name
+2. When downloading as a zip file, you can right-click and rename to remove the `Unbranded` text from the filename.
 
 # Installing and configuring the module
 
