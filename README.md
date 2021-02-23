@@ -19,7 +19,7 @@ This Zencart module provides an easy method to integrate with the payment gatewa
 - The module requires the following prerequisites to be met in order to function correctly:
     - For a full list of requirements please see: https://docs.zen-cart.com/user/first_steps/server_requirements/
 
-> Please note that we can only offer support for the Module itself. While every effort has been made to ensure the payment module is complete and bug free, we cannot guarantee normal functionality if unsupported changes are made.
+> Please note that we can only offer support for the module itself. While every effort has been made to ensure the payment module is complete and bug free, we cannot guarantee normal functionality if unsupported changes are made.
 
 # Rebranding
 
